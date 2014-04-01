@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7EEDA1B18EAD8B000910837 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7EEDA1A18EAD8B000910837 /* Cocoa.framework */; };
+		F7EEDA2518EAD8B000910837 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7EEDA2318EAD8B000910837 /* InfoPlist.strings */; };
+		F7EEDA2718EAD8B000910837 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EEDA2618EAD8B000910837 /* main.m */; };
+		F7EEDA2B18EAD8B000910837 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F7EEDA2918EAD8B000910837 /* Credits.rtf */; };
+		F7EEDA2E18EAD8B000910837 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EEDA2D18EAD8B000910837 /* AppDelegate.m */; };
+		F7EEDA3118EAD8B000910837 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7EEDA2F18EAD8B000910837 /* MainMenu.xib */; };
+		F7EEDA3318EAD8B000910837 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7EEDA3218EAD8B000910837 /* Images.xcassets */; };
+		F7EEDA3A18EAD8B000910837 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7EEDA3918EAD8B000910837 /* XCTest.framework */; };
+		F7EEDA3B18EAD8B000910837 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7EEDA1A18EAD8B000910837 /* Cocoa.framework */; };
+		F7EEDA4318EAD8B000910837 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7EEDA4118EAD8B000910837 /* InfoPlist.strings */; };
+		F7EEDA4518EAD8B000910837 /* irMagicianStatusBarAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EEDA4418EAD8B000910837 /* irMagicianStatusBarAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7EEDA3C18EAD8B000910837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7EEDA0F18EAD8B000910837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7EEDA1618EAD8B000910837;
+			remoteInfo = irMagicianStatusBarApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7EEDA1718EAD8B000910837 /* irMagicianStatusBarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = irMagicianStatusBarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7EEDA1A18EAD8B000910837 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F7EEDA1D18EAD8B000910837 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F7EEDA1E18EAD8B000910837 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F7EEDA1F18EAD8B000910837 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7EEDA2218EAD8B000910837 /* irMagicianStatusBarApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "irMagicianStatusBarApp-Info.plist"; sourceTree = "<group>"; };
+		F7EEDA2418EAD8B000910837 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7EEDA2618EAD8B000910837 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7EEDA2818EAD8B000910837 /* irMagicianStatusBarApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "irMagicianStatusBarApp-Prefix.pch"; sourceTree = "<group>"; };
+		F7EEDA2A18EAD8B000910837 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F7EEDA2C18EAD8B000910837 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7EEDA2D18EAD8B000910837 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7EEDA3018EAD8B000910837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F7EEDA3218EAD8B000910837 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F7EEDA3818EAD8B000910837 /* irMagicianStatusBarAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = irMagicianStatusBarAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7EEDA3918EAD8B000910837 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F7EEDA4018EAD8B000910837 /* irMagicianStatusBarAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "irMagicianStatusBarAppTests-Info.plist"; sourceTree = "<group>"; };
+		F7EEDA4218EAD8B000910837 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7EEDA4418EAD8B000910837 /* irMagicianStatusBarAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = irMagicianStatusBarAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7EEDA1418EAD8B000910837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EEDA1B18EAD8B000910837 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7EEDA3518EAD8B000910837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EEDA3B18EAD8B000910837 /* Cocoa.framework in Frameworks */,
+				F7EEDA3A18EAD8B000910837 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7EEDA0E18EAD8B000910837 = {
+			isa = PBXGroup;
+			children = (
+				F7EEDA2018EAD8B000910837 /* irMagicianStatusBarApp */,
+				F7EEDA3E18EAD8B000910837 /* irMagicianStatusBarAppTests */,
+				F7EEDA1918EAD8B000910837 /* Frameworks */,
+				F7EEDA1818EAD8B000910837 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7EEDA1818EAD8B000910837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7EEDA1718EAD8B000910837 /* irMagicianStatusBarApp.app */,
+				F7EEDA3818EAD8B000910837 /* irMagicianStatusBarAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7EEDA1918EAD8B000910837 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7EEDA1A18EAD8B000910837 /* Cocoa.framework */,
+				F7EEDA3918EAD8B000910837 /* XCTest.framework */,
+				F7EEDA1C18EAD8B000910837 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7EEDA1C18EAD8B000910837 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7EEDA1D18EAD8B000910837 /* AppKit.framework */,
+				F7EEDA1E18EAD8B000910837 /* CoreData.framework */,
+				F7EEDA1F18EAD8B000910837 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F7EEDA2018EAD8B000910837 /* irMagicianStatusBarApp */ = {
+			isa = PBXGroup;
+			children = (
+				F7EEDA2C18EAD8B000910837 /* AppDelegate.h */,
+				F7EEDA2D18EAD8B000910837 /* AppDelegate.m */,
+				F7EEDA2F18EAD8B000910837 /* MainMenu.xib */,
+				F7EEDA3218EAD8B000910837 /* Images.xcassets */,
+				F7EEDA2118EAD8B000910837 /* Supporting Files */,
+			);
+			path = irMagicianStatusBarApp;
+			sourceTree = "<group>";
+		};
+		F7EEDA2118EAD8B000910837 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7EEDA2218EAD8B000910837 /* irMagicianStatusBarApp-Info.plist */,
+				F7EEDA2318EAD8B000910837 /* InfoPlist.strings */,
+				F7EEDA2618EAD8B000910837 /* main.m */,
+				F7EEDA2818EAD8B000910837 /* irMagicianStatusBarApp-Prefix.pch */,
+				F7EEDA2918EAD8B000910837 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7EEDA3E18EAD8B000910837 /* irMagicianStatusBarAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7EEDA4418EAD8B000910837 /* irMagicianStatusBarAppTests.m */,
+				F7EEDA3F18EAD8B000910837 /* Supporting Files */,
+			);
+			path = irMagicianStatusBarAppTests;
+			sourceTree = "<group>";
+		};
+		F7EEDA3F18EAD8B000910837 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7EEDA4018EAD8B000910837 /* irMagicianStatusBarAppTests-Info.plist */,
+				F7EEDA4118EAD8B000910837 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7EEDA1618EAD8B000910837 /* irMagicianStatusBarApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7EEDA4818EAD8B000910837 /* Build configuration list for PBXNativeTarget "irMagicianStatusBarApp" */;
+			buildPhases = (
+				F7EEDA1318EAD8B000910837 /* Sources */,
+				F7EEDA1418EAD8B000910837 /* Frameworks */,
+				F7EEDA1518EAD8B000910837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = irMagicianStatusBarApp;
+			productName = irMagicianStatusBarApp;
+			productReference = F7EEDA1718EAD8B000910837 /* irMagicianStatusBarApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7EEDA3718EAD8B000910837 /* irMagicianStatusBarAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7EEDA4B18EAD8B000910837 /* Build configuration list for PBXNativeTarget "irMagicianStatusBarAppTests" */;
+			buildPhases = (
+				F7EEDA3418EAD8B000910837 /* Sources */,
+				F7EEDA3518EAD8B000910837 /* Frameworks */,
+				F7EEDA3618EAD8B000910837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7EEDA3D18EAD8B000910837 /* PBXTargetDependency */,
+			);
+			name = irMagicianStatusBarAppTests;
+			productName = irMagicianStatusBarAppTests;
+			productReference = F7EEDA3818EAD8B000910837 /* irMagicianStatusBarAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7EEDA0F18EAD8B000910837 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ooo;
+				TargetAttributes = {
+					F7EEDA3718EAD8B000910837 = {
+						TestTargetID = F7EEDA1618EAD8B000910837;
+					};
+				};
+			};
+			buildConfigurationList = F7EEDA1218EAD8B000910837 /* Build configuration list for PBXProject "irMagicianStatusBarApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7EEDA0E18EAD8B000910837;
+			productRefGroup = F7EEDA1818EAD8B000910837 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7EEDA1618EAD8B000910837 /* irMagicianStatusBarApp */,
+				F7EEDA3718EAD8B000910837 /* irMagicianStatusBarAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7EEDA1518EAD8B000910837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EEDA2518EAD8B000910837 /* InfoPlist.strings in Resources */,
+				F7EEDA3318EAD8B000910837 /* Images.xcassets in Resources */,
+				F7EEDA2B18EAD8B000910837 /* Credits.rtf in Resources */,
+				F7EEDA3118EAD8B000910837 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7EEDA3618EAD8B000910837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EEDA4318EAD8B000910837 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7EEDA1318EAD8B000910837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EEDA2E18EAD8B000910837 /* AppDelegate.m in Sources */,
+				F7EEDA2718EAD8B000910837 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7EEDA3418EAD8B000910837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EEDA4518EAD8B000910837 /* irMagicianStatusBarAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7EEDA3D18EAD8B000910837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7EEDA1618EAD8B000910837 /* irMagicianStatusBarApp */;
+			targetProxy = F7EEDA3C18EAD8B000910837 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7EEDA2318EAD8B000910837 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7EEDA2418EAD8B000910837 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7EEDA2918EAD8B000910837 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7EEDA2A18EAD8B000910837 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F7EEDA2F18EAD8B000910837 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7EEDA3018EAD8B000910837 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F7EEDA4118EAD8B000910837 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7EEDA4218EAD8B000910837 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7EEDA4618EAD8B000910837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F7EEDA4718EAD8B000910837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F7EEDA4918EAD8B000910837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "irMagicianStatusBarApp/irMagicianStatusBarApp-Prefix.pch";
+				INFOPLIST_FILE = "irMagicianStatusBarApp/irMagicianStatusBarApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F7EEDA4A18EAD8B000910837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "irMagicianStatusBarApp/irMagicianStatusBarApp-Prefix.pch";
+				INFOPLIST_FILE = "irMagicianStatusBarApp/irMagicianStatusBarApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F7EEDA4C18EAD8B000910837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/irMagicianStatusBarApp.app/Contents/MacOS/irMagicianStatusBarApp";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "irMagicianStatusBarApp/irMagicianStatusBarApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "irMagicianStatusBarAppTests/irMagicianStatusBarAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F7EEDA4D18EAD8B000910837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/irMagicianStatusBarApp.app/Contents/MacOS/irMagicianStatusBarApp";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "irMagicianStatusBarApp/irMagicianStatusBarApp-Prefix.pch";
+				INFOPLIST_FILE = "irMagicianStatusBarAppTests/irMagicianStatusBarAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7EEDA1218EAD8B000910837 /* Build configuration list for PBXProject "irMagicianStatusBarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7EEDA4618EAD8B000910837 /* Debug */,
+				F7EEDA4718EAD8B000910837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7EEDA4818EAD8B000910837 /* Build configuration list for PBXNativeTarget "irMagicianStatusBarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7EEDA4918EAD8B000910837 /* Debug */,
+				F7EEDA4A18EAD8B000910837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7EEDA4B18EAD8B000910837 /* Build configuration list for PBXNativeTarget "irMagicianStatusBarAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7EEDA4C18EAD8B000910837 /* Debug */,
+				F7EEDA4D18EAD8B000910837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7EEDA0F18EAD8B000910837 /* Project object */;
+}
